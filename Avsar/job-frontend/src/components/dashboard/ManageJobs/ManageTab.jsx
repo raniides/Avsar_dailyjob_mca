@@ -90,6 +90,7 @@ const ManageTab = (props) => {
                 <tr className={classes.tableHeader}>
                   <th> Job Title</th>
                   <th>Job Description</th>
+                  <th>Job City</th>
                   <th>Job Salary</th>
                   <th>Company Name</th>
                   <th>Start Date</th>

@@ -153,7 +153,7 @@ const Navigation = () => {
                   Change Password
                 </Link>
                 <Dropdown.Divider />
-                <Link to="/userinfo" className={classes.changePassword}>
+                <Link to="/contactus" className={classes.changePassword}>
                   Contact Us
                 </Link>
                 <Dropdown.Divider />

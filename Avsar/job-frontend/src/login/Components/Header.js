@@ -23,7 +23,7 @@ function Header() {
          <Navbar.Collapse
          id="responsive-navbar-nav"
           >
-            <Nav style={{ marginLeft: "70px",width:"140px" }}>     
+            {/*<Nav style={{ marginLeft: "70px",width:"140px" }}>     
                 <NavLink
                 className={(navData) =>
                   navData.isActive ? classes.active : ""
@@ -32,6 +32,18 @@ function Header() {
                 style={{ color: 'blue' ,fontSize: '25px'}}
               >
                 Job Courses
+              </NavLink>
+            </Nav>*/}
+
+<Nav style={{ marginLeft: "70px",width:"140px" }}>     
+                <NavLink
+                className={(navData) =>
+                  navData.isActive ? classes.active : ""
+                }
+                to="/aboutus"
+                style={{ color: 'blue' ,fontSize: '25px'}}
+              >
+                About Us
               </NavLink>
             </Nav>
 
@@ -91,12 +103,12 @@ function Header() {
               className={classes.user}
               style={{width:"200px",fontSize:"50px",height:"80px"}}
             >
-              <NavDropdown.Item href="">
-                Who are we
+              <NavDropdown.Item href="./aboutus">
+               About Us
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="./userinfo">
+              <NavDropdown.Item href="./contactus">
                 Contact Us
               </NavDropdown.Item>
               <NavDropdown.Divider />

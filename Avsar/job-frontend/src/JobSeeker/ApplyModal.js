@@ -13,7 +13,7 @@ const ApplyModal = (props) => {
             Job Application
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body style={{marginLeft:"0px",width:"200px"}}>
           <ApplicationForm
             job={props.job}
             onClose={props.onClose}

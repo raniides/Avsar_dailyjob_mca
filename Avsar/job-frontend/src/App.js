@@ -4,6 +4,8 @@ import Register from "./login/Components/RegisterYup";
 import ForgotPassword from "./login/Components/ForgotPassword";
 import Mdashboard from "./login/Components/Mdashboard";
 import Media from "./login/Components/Media";
+import ContactUs from "./login/Components/contactus";
+import AboutUs from "./login/Components/AboutUs";
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
       <Route path="/Register" element={<Register />} />
 
       <Route path="/Media" element={<Media />} />
+
+      <Route path="/Contactus" element={<ContactUs />} />
+
+      <Route path="/Aboutus" element={<AboutUs />} />
+
 
       {/* <Route path="*" element={<Navigate to="/Login" />} /> */}
     </Routes>
