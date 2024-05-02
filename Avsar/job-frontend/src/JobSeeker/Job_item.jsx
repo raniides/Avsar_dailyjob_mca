@@ -20,7 +20,7 @@ function Jobitem({ item, jobApply }) {
         
         <ListGroupItem>
           <Card.Text className={classes.salary}>
-            {item.salary}
+            {item.salary} per day
           </Card.Text>
         </ListGroupItem>
         <ListGroupItem>

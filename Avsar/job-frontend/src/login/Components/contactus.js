@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
-import classes from "./Register.module.css";
+import { Link } from "react-router-dom";
+import { Button} from "react-bootstrap";
 
 class ContactUs extends React.Component {
   constructor(props) {
@@ -39,16 +39,17 @@ class ContactUs extends React.Component {
       <div className="container-fluid bg-light" style={{ minHeight: "100vh" }}>
         <nav  style={{ backgroundColor:"#FAC9FF",width:"1425px",height:"80px"}}>
           <div className="container" >
-          <NavLink
-                className={(navData) =>
-                  navData.isActive ? classes.active : ""
-                }
-                to="/home"
-                style={{ marginLeft: "1200px",color: 'blue' ,fontSize: '25px'}}
-              >
-                    Home
-                    </NavLink>
-            <center><a className="navbar-brand" href="#" style={{fontSize:"30px"}}>Contact Us</a></center>
+          <Link className="" to="/home">
+                      <Button
+                        variant="success"
+                        style={{ marginLeft: "1130px",marginTop:"5px" ,backgroundColor:"magenta",height:"40px"}}
+                        size="lg"
+                      >
+                        {" "}
+                        Home{" "}
+                      </Button>
+                    </Link>
+            <center><a className="navbar-brand" href="#" style={{fontSize:"25px"}}>Contact Us</a></center>
             
           </div>
         </nav>

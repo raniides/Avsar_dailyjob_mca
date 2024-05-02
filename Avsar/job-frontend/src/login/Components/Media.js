@@ -1,6 +1,7 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
-import classes from "./Register.module.css";
+import { Link } from "react-router-dom";
+import { Button} from "react-bootstrap";
+
 
 class Media extends React.Component {
   constructor(props) {
@@ -20,19 +21,20 @@ class Media extends React.Component {
   render() {
     return (
       <div className="container mt-5">
-        <NavLink
-                className={(navData) =>
-                  navData.isActive ? classes.active : ""
-                }
-                to="/home"
-                style={{ marginLeft: "1100px",color: 'blue' ,fontSize: '35px'}}
-              >
-                    Home
-                    </NavLink>
+        <Link className="" to="/home">
+                      <Button
+                        variant="success"
+                        style={{ marginLeft: "1130px",marginTop:"0px" ,backgroundColor:"magenta"}}
+                        size="lg"
+                      >
+                        {" "}
+                        Home{" "}
+                      </Button>
+                    </Link>
         <h1 className="mb-4">Job Advertisements in Avsar</h1>
         <div className="row">
           {this.state.jobAdvertisements.map(job => (
-            <div className="col-md-4 mb-4" key={job.id}>
+            <div className="col-md-4 mb-4" style={{ height:'210px',width:'520px'}} key={job.id}>
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title" style={{color:"magenta",fontSize:"25px"}}>{job.title}</h5>
