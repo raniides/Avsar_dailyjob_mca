@@ -28,17 +28,10 @@ const Table1 = () => {
           <tbody>
             <tr>
               <td>1</td>
-              <td>Web Developer</td>
-              <td>Software</td>
+              <td>Helper</td>
+              <td>Home</td>
               <td>02/03/2022</td>
               <td>19/03/2022</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Web Developer</td>
-              <td>Software</td>
-              <td>07/03/2022</td>
-              <td>22/03/2022</td>
             </tr>
           </tbody>
         </Table>

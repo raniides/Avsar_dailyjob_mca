@@ -1,6 +1,6 @@
 import axios from "axios";
-import { Button, Card } from "react-bootstrap"; // Import Card from react-bootstrap
-import classes from "./ApplicantItem.module.css"; // Assuming this is the CSS module for the ApplicantItem component
+import { Button, Card } from "react-bootstrap"; 
+import classes from "./ApplicantItem.module.css"; 
 import Config from "../../../config/Config.json";
 
 const ApplicantItem = ({ setAction, ...props }) => {

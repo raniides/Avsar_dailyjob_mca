@@ -4,39 +4,7 @@ import classes from "../Table/Table.module.css";
 import Pagination1 from "../Table/pagination.js";
 const Tabular = () => {
   return (
-    // <div>
-    //   <Container>
-    //     <Row className="mt-5">
-    //       <Table striped hover size="lg">
-    //         <thead className="bg-primary">
-    //           <tr>
-    //             <th>Job ID</th>
-    //             <th>User name</th>
-    //             <th>Job Title</th>
-    //             <th>Email id</th>
-    //             <th>Applied On</th>
-    //           </tr>
-    //         </thead>
-    //         <tbody>
-    //           <tr>
-    //             <td>1231</td>
-    //             <td>Peter</td>
-    //             <td>xxxxx</td>
-    //             <td>xxxxx</td>
-    //             <td>03-15-2022</td>
-    //           </tr>
-    //           <tr>
-    //             <td>1232</td>
-    //             <td>Parker</td>
-    //             <td>xxxxx</td>
-    //             <td>xxxxx</td>
-    //             <td>03-12-22</td>
-    //           </tr>
-    //         </tbody>
-    //       </Table>
-    //     </Row>
-    //   </Container>
-    // </div>
+    
     <React.Fragment>
       <Container>
         <Row className={classes.rowStyle}>
@@ -64,13 +32,6 @@ const Tabular = () => {
               <td>xxxxx</td>
               <td>xxxxx</td>
               <td>03-15-2022</td>
-            </tr>
-            <tr>
-              <td>1232</td>
-              <td>Parker</td>
-              <td>xxxxx</td>
-              <td>xxxxx</td>
-              <td>03-12-22</td>
             </tr>
           </tbody>
         </Table>
